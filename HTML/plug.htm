@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>JQuery Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../CSS/plug.css">
+<script src="../JQuery/plug.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+</head>
+<body>
+  <div class="row">
+    <div class="col-sm-12"> 
+      <h2>Customer Details:</h2>
+    </div>
+  </div>
+  <form id="basic-form" action="" method="post">
+    <div class="row">
+      <div class="col-sm-12"> 
+        <h3>Full Name<span style="color:red">*</span></h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6"> 
+        <input type="text1" id="fname" name="fname" ><br>
+        <label for="fname">First Name</label>
+        <p ></p>
+      </div>
+      <div class="col-sm-6"> 
+        <input type="text1" id="lname" name="lname"><br>
+        <label for="lname"> Last Name</label>
+        <p  id="OP2"></p>
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-sm-12 "> 
+        <h3>Adress<span style="color:red">*</span></h3>
+      </div>
+    </div>
+    <div class="row box">
+      <input type="text1" id="adress" name="adress" >
+      <label for="adress">Street adress</label><br>
+      <p id="OP3"></p>
+      <input type="text1" id="lname" name="lname"value="">
+      <label for="fname">Street adress Line 2</label><br>
+    </div>
+    <div class="row">
+      <div class="col-sm-6"> 
+        <input type="text1" id="city" name="city" ><br>
+        <label for="city">City</label>
+        <p id="OP4"></p>
+      </div>
+      <div class="col-sm-6"> 
+        <input type="text1" id="city" name="city"><br>
+        <label for="city"> State/provins</label>
+        <p id="OP5"></p>
+      </div>
+    </div>
+     <div class="row box"> 
+      <input type="text1" id="zip" name="zip" >
+      <label for="zip">Postel/Zip code</label><br>
+      <p id="OP6"></p>
+    </div>
+    <div class="row">
+      <div class="col-sm-12"> 
+        <h3>Phone number<span style="color:red">*</span></h3>
+      </div>
+    </div>
+    
+  
+    <div class="row">
+      <div class="col-sm-6"> 
+        <input type="text1" id="phone" name="phone" ><br>
+        <p id="OP7"></p>
+      </div>
+      <div class="col-sm-6"> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12"> 
+        <h3>E-mail<span style="color:red">*</span></h3>
+      </div>
+    </div>
+    
+  
+    <div class="row">
+      <div class="col-sm-6"> 
+        <input type="text1" id="email" name="email" ><br>
+        <label for="email">example@example.comp</label><br>
+        <p id="OP8"></p>
+      </div>
+      <div class="col-sm-6"> 
+      </div>
+    </div>
+   <div class="row">
+      <div class="col-sm-12"> 
+        <h3>How did you hear about us?<span style="color:red">*</span></h3>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-sm-12"> 
+        <select id="about" name="about">
+          <option value="Magazine">Magazine</option>
+          <option value="News paper">News paper</option>
+          <option value="Facebook">Facebook</option>
+        </select>
+      </div>
+    </div>
+    
+        <div class="row">
+          <div class="col-sm-12"> 
+            <h3>Feedback about us:</h3>
+          </div>
+        </div>
+    <div class="row">
+      <div class="col-sm-12">     
+      <textarea name="feedback"style="overflow: scroll;"></textarea>
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-sm-12"> 
+        <h3>Suggestion if any for further improvement:</h3>
+        <textarea name="Suggestion" style="overflow: scroll;"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4"> 
+        <label for=""><b>Will you be recomend us?</b></label>
+        <input type="checkbox">
+      </div>
+      <div class="col-sm-8"> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6"> 
+        <label for='Gender'>Gender:</label>
+ <p class='container'>
+<label><input type='radio' name='Gender' value='Male' />Male</label>
+<label><input type='radio' name='Gender' value='Female' />Female</label>
+<label><input type='radio' name='Gender' value='Others' />Other</label>
+  </p>
+      </div>
+      <div class="col-sm-6"> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12"> 
+        <h3>Please give refrence of any two people whome you feel</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">  
+ <table>
+    <tr>
+      <th style ="border-top-color:white;width:100px;border-left-color:white;width:100px;background-color:white;"></th>
+      <th>Full Name</th>
+      <th>Adress</th>
+      <th>Contact Number</th>
+    </tr>
+    <tr>
+        <td><b>1</b>  </td>
+        <td><input type="text1"></td>
+        <td><input type="text1"></td>
+        <td><input type="text1"></td>
+      </tr>
+      <tr>
+          <td><b>2</b> </td>
+        <td><input type="text1" ></td>
+        <td><input type="text1" ></td>
+        <td><input type="text1" ></td>
+      </tr>
+</table>
+</div>
+</div> -->
+     <p>
+    <input class="submit" type="submit" value="SUBMIT">
+  </p>
+  </form>
+</body>
+</html>
+  
+  
